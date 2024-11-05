@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mualliflar</title>
+</head>
+<body>
+<h2>muallif</h2>
+{% for muallif in mualliflar %}
+<a href="muallif/{{ muallif.id }}">{{ muallif.ism }}</a><br>
+{% endfor %}
+</body>
+</html>
